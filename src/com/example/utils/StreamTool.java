@@ -17,7 +17,7 @@ public class StreamTool {
 		while( (len = inStream.read(buffer)) != -1){
 			outStream.write(buffer, 0, len);
 		}
-		inStream.close();
+		//inStream.close();
 		return outStream.toByteArray();
 	}
 

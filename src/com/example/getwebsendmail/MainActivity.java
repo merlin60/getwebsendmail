@@ -61,8 +61,8 @@ public class MainActivity extends Activity {
 				message.what = PRINTWEBCONTENT;
 				mHandler.sendMessage(message);
 				
-				MailSend mailSend = new MailSend();
-				mailSend.sendMail();
+//				MailSend mailSend = new MailSend();
+//				mailSend.sendMail();
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
